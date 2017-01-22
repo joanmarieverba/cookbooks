@@ -1,0 +1,48 @@
+body {
+  background-color: lightblue;
+}
+
+.disclaimer {
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-family: Verdana;
+  font-size: small;
+  margin-bottom: 50px;
+  margin-left: 120px;
+  margin-top: 50px;
+  padding: 10px;
+  width: 80%;
+}
+
+h5 {
+  color: black;
+  font-family: 'Bitter';
+}
+
+li {
+  margin: 8px;
+}
+
+#navbar li {
+    height: 25px;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#nodot li {
+    list-style-type: none;
+}
+
+.top-banner {
+  display:block;
+  position:relative;
+  overflow:hidden;/*keeps the image in the container*/
+  height: 27vw;
+}
+.top-banner img{position:absolute;top:0;width:100%}
+
+
+ul {
+  display: flex;
+}
