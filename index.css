@@ -21,6 +21,11 @@ h3, h5 {
   margin: 0px;
 }
 
+h4 {
+  color: black;
+  font-family: 'Bitter';
+}
+
 .innerbox {
   font-weight: bold;
   display: block;
@@ -36,10 +41,10 @@ h3, h5 {
   background-color: antiquewhite;
 }
 
-.innerbox img {
+/*.innerbox img {
     float: right;
     margin: 0 0 10px 10px;
-}
+}*/
 
 li {
   margin: 8px;
