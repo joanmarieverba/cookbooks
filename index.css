@@ -15,6 +15,11 @@ body {
   width: 80%;
 }
 
+h1 {
+  font-family: 'Bitter';
+  font-size: 2.5vw;
+}
+
 h3, h5 {
   color: black;
   font-family: 'Bitter';
