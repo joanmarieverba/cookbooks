@@ -46,6 +46,21 @@ h4 {
   background-color: antiquewhite;
 }
 
+.innerbox2 {
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  width: 28vw;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  border: 3px solid purple;
+  border-radius: 15px;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+  background-color: antiquewhite;
+}
+
 
 li {
   margin: 8px;
