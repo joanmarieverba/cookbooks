@@ -61,7 +61,6 @@ h4 {
   background-color: antiquewhite;
 }
 
-
 li {
   margin: 8px;
 }
@@ -78,9 +77,22 @@ li {
     list-style-type: none;
 }
 
+
 .lspace {
   margin-left: 3.5vw;
 }
+
+.second-nodot {
+  display:block;
+  list-style-type: none;
+  position:relative;
+  overflow:hidden;/*keeps the image in the container*/
+  height: auto;
+}
+.second-nodot iframe{top:4vw;position:absolute;right:0;width:28vw}
+.second-nodot img{float:left;top:0;height:32vw;width:28vw}
+.seccond-nodot span {float:auto;top:0;width:25vw}
+
 
 .title {
   font-family: 'Bitter';
@@ -96,6 +108,16 @@ li {
 }
 .top-banner img{position:absolute;top:0;width:100%}
 
+.top-nodot {
+  display:block;
+  list-style-type: none;
+  position:relative;
+  overflow:hidden;/*keeps the image in the container*/
+  height: auto;
+}
+.top-nodot img{top:0;position:absolute;right:0;width:28vw}
+.top-nodot iframe{float:left;top:0;height:28vw;width:32vw}
+.top-nodot span {float:auto;top:0;width:25vw}
 
 ul {
   display: flex;
