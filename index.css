@@ -77,7 +77,6 @@ li {
     list-style-type: none;
 }
 
-
 .lspace {
   margin-left: 3.5vw;
 }
@@ -89,8 +88,8 @@ li {
   overflow:hidden;/*keeps the image in the container*/
   height: auto;
 }
-.second-nodot iframe{top:4vw;position:absolute;right:0;width:28vw}
-.second-nodot img{float:left;top:0;height:32vw;width:28vw}
+.second-nodot iframe{top:0vw;position:absolute;right:0;height:40vw;width:28vw}
+.second-nodot img{float:left;top:0;height:40vw;width:28vw}
 .seccond-nodot span {float:auto;top:0;width:25vw}
 
 
@@ -115,7 +114,7 @@ li {
   overflow:hidden;/*keeps the image in the container*/
   height: auto;
 }
-.top-nodot img{top:0;position:absolute;right:0;width:28vw}
+.top-nodot img{top:0;position:absolute;right:0;width:28vw;align-self:center}
 .top-nodot iframe{float:left;top:0;height:28vw;width:32vw}
 .top-nodot span {float:auto;top:0;width:25vw}
 
